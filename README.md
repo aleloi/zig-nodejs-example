@@ -1,5 +1,7 @@
 # Node.js Native Module written in Zig
 
+Forked from https://github.com/felixdrp/zig-nodejs-example. Updated to Zig >= 0.11 (copied over the latest https://github.com/tigerbeetle/tigerbeetle/blob/main/src/clients/node/src/translate.zig with some minimal changes). Tested with zig 0.11, 0.12, 0.13 and master. Tested with cross-compililation to package a node aws lambda function.
+
 Node.js Native Modules are typically written in C++, but you can write them also in other languages like Rust ([1], [2]), too. [Zig](https://ziglang.org/) is a new low-level programming language that competes with C, integrating seemlessly with C libraries without FFI or bindings.
 
 This project is an example Hello World for making a Node.js native module in Zig.
